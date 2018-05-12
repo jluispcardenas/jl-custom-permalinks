@@ -24,7 +24,7 @@ class Jcp_Admin {
 		foreach ( $screens as $screen ) {
 		 	add_meta_box(
 				'layers_child_meta_sectionid',
-				'Multiples Links',
+				'Multiple Links',
 				array('Jcp_Admin', 'layers_child_meta_box_callback'),
 				$screen,
 					'normal',
@@ -70,7 +70,7 @@ class Jcp_Admin {
 		
 		echo '</tr></table></div>';
 		
-		echo '<a href="#" id="layers_add_more" style="margin-top:30px;display:block">Agregar mas</a>';
+		echo '<a href="#" id="layers_add_more" style="margin-top:30px;display:block">Add more</a>';
 		
 		echo '<script>jQuery("#layers_add_more").click(function() { var cl = jQuery("#orig_tr").clone(); cl.find("input").val(""); jQuery("#original_layer").append(cl); return false; });</script>';
 	}
