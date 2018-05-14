@@ -57,6 +57,7 @@ class Jcp {
 
 						add_rewrite_rule('^' . $path . '\/?$', 'index.php?page_id=' . $res[0]->post_id, 'top');
 						$wp_rewrite->flush_rules(false);
+						add_filter('redirect_canonical', '__return_false');
 					}
 					
 				} else {
