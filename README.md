@@ -1,4 +1,5 @@
 # jl-custom-permalinks
+**Wordpress Plugin**
 
 This plugin allows you to create many permalinks for each post.
 
@@ -10,4 +11,9 @@ Then in your page you can use the tag [value1] [value2]
 Also you can use a default value for your tags:
 
 [value1:This is a default value]
+
+
+## Licence
+
+This project is licensed under the MIT License
 
